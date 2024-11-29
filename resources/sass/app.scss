@@ -1,0 +1,52 @@
+// Import Bootstrap SCSS
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+// Custom Styles Profile
+.navbar-dark {
+    background-color: #4b0082; /* Warna ungu kehitaman */
+}
+
+.navbar-dark .navbar-brand, .navbar-dark .nav-link {
+    color: #ffffff;
+}
+
+.responsive-image {
+    width: 100%; /* Maksimalkan ukuran gambar sesuai dengan container */
+    max-width: 250px; /* Batas maksimal ukuran gambar */
+    height: auto; /* Pastikan aspek rasio tetap */
+}
+
+@media (max-width: 576px) { /* smartphone */
+    .responsive-image {
+        max-width: 150px;
+        margin-bottom: 15px; /* jarak bawah antara gambar dan teks */
+    }
+}
+
+.navbar-dark .nav-link:hover {
+    color: #ffcc00; /* Warna kuning saat hover */
+    text-decoration: underline; /* Garis bawah saat hover */
+}
+//css bootstrap clone
+.bg-purple {
+    background-color: #7533F9 !important;
+}
+
+#main a {
+    color: gray;
+}
+
+#main a:hover {
+    color: rgb(73, 73, 73);
+}
+
+#footer a {
+    text-decoration: none;
+    color: black;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+    color: var(--bs-primary) !important;
+}
